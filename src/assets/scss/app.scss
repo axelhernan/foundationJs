@@ -1,0 +1,18 @@
+@import 'settings';
+@import 'foundation-emails';
+
+@import 'template/template';
+
+
+/* styles by axel hernan valdez */
+
+table.body .w-90{
+    width:90%!important;
+    margin: 0 auto;
+
+    @media only screen and (max-width: 596px){
+        table.body .w-90{    
+            width:580px;
+        }
+    }
+}
